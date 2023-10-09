@@ -1,7 +1,7 @@
 const InforProduct = () => {
   return (
     <div className="">
-      <div className="flex justify-between lg:space-x-4 lg:flex-row flex-col items-center w-full">
+      <div className="flex justify-between lg:space-x-12 lg:flex-row flex-col items-center w-full">
         <div className="flex w-full left flex-col">
           <div className="flex justify-between items-center mt-[30px] lg:mt-[0]">
             <h3 className="text-[18px] text-[#212121] font-medium">

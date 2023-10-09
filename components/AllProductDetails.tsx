@@ -47,7 +47,7 @@ const AllProductDetails = () => {
         </div>
         <div className=" bg-white col-span-2 lg:col-span-1  border border-gray-200 rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
           <div>
-            <Image className="rounded-t-lg" src={product3} alt="" />
+            <Image className="rounded-t-lg h-[260.5px]" src={product3} alt="" />
           </div>
           <div className="card w-full rounded-[10px] mt-[20px] p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
