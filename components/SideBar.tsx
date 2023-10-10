@@ -4,13 +4,8 @@ import product1 from "../assets/Img/Ellipse 128.png";
 import Tabs from "./Tabs";
 const SideBar = () => {
   return (
-    <div
-      className="w-[320px] hidden lg:flex flex-col justify-between "
-      style={{
-        fontFamily: "sans-serif",
-      }}
-    >
-      <div className="content p-[20px]">
+    <div className="w-[320px] font-abc  hidden lg:flex flex-col justify-between ">
+      <div className="content  p-[20px]">
         <svg
           width="100"
           height="50"
@@ -43,7 +38,7 @@ const SideBar = () => {
             className=""
             alt="Description of the image"
           />
-          <h3 className="text-[#0C273C] mt-3 text-[15px] font-500 leading-[150%]">
+          <h3 className="text-[#0C273C]  mt-3 text-[15px] font-500 leading-[150%]">
             Nabeel Alawadhi
           </h3>
           <p className="text-[#2E3E5C] text-[12px] font-400 leading-[150%]">
@@ -93,7 +88,7 @@ const SideBar = () => {
             </div>
           </div>
           <div>
-            <span className="text-[#0C273C] font-medium font-p">
+            <span className="text-[#0C273C] font-abc font-medium font-p">
               Project Name
             </span>
             <div className="items bg-[white]  font-medium  text-[#2E3E5C] m-[10px] rounded-[8px] p-[12px]">

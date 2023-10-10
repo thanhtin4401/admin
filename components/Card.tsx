@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className="Cards grid grid-cols-2 gap-x-[20px] gap-y-[30px] my-[30px] lg:grid-cols-4 lg:gap-x-[50px] ">
+    <div className="font-abc Cards grid grid-cols-2 gap-x-[20px] gap-y-[30px] my-[30px] md:grid-cols-3 lg:grid-cols-4 lg:gap-x-[50px] ">
       <div>
         <div className="items h-[137px] p-[30px] rounded-[15px] shadow-md items-center flex bg-white border">
           <div className="bg-[#FFB648] bg-opacity-[0.1] w-[60px]  h-[60px] flex items-center justify-center rounded-[50%]">
