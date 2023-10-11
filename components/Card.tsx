@@ -1,8 +1,8 @@
 const Card = () => {
   return (
-    <div className="font-abc Cards grid grid-cols-2 gap-x-[20px] gap-y-[30px] my-[30px] md:grid-cols-3 lg:grid-cols-4 lg:gap-x-[50px] ">
+    <div className="font-abc Cards grid grid-cols-2 lg:gap-x-[0px] gap-x-[15px] gap-y-[30px] my-[30px] md:grid-cols-3 lg:grid-cols-4  ">
       <div>
-        <div className="items px-[20px] py-[30px] h-full rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:p-[20px] px-[10px] lg:h-[137px] h-[100px] lg:w-[75%] rounded-[15px] shadow-md items-center flex bg-white border">
           <div className="bg-[#FFB648] bg-opacity-[0.1] w-[40px] h-[40px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -30,18 +30,18 @@ const Card = () => {
               />
             </svg>
           </div>
-          <div className="div-right flex flex-col ml-[20px]">
+          <div className="div-right flex flex-col ml-[10px]">
             <p className="text-[#171717]  text-[16px] mb-[2px] lg:text-[18px] font-semibold">
               200
             </p>
-            <p className="text-[#2E3E5C] text-[8px] lg:text-[15px] font-medium">
+            <p className="text-[#2E3E5C] text-[12px] lg:text-[15px] font-medium">
               Customers
             </p>
           </div>
         </div>
       </div>
       <div>
-        <div className="items h-[137px] p-[20px] rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
           <div className="bg-[#4BDE97] bg-opacity-[0.1] w-[40px] h-[40px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -69,18 +69,18 @@ const Card = () => {
               />
             </svg>
           </div>
-          <div className="div-right flex flex-col ml-[20px]">
+          <div className="div-right flex flex-col ml-[10px]">
             <p className="text-[#171717]  text-[16px] mb-[2px] lg:text-[18px] font-semibold">
               239
             </p>
-            <p className="text-[#2E3E5C] text-[8px] lg:text-[15px] font-medium">
+            <p className="text-[#2E3E5C] text-[12px] lg:text-[15px] font-medium">
               Staffs
             </p>
           </div>
         </div>
       </div>
       <div>
-        <div className="items h-[137px] p-[20px] rounded-[15px] shadow-md  items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md  items-center flex bg-white border">
           <div className="bg-[#EF8157] bg-opacity-[0.1] w-[40px] h-[40px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -110,18 +110,18 @@ const Card = () => {
               />
             </svg>
           </div>
-          <div className="div-right flex flex-col ml-[20px]">
+          <div className="div-right flex flex-col ml-[10px]">
             <p className="text-[#171717]  text-[16px] mb-[2px] lg:text-[18px] font-semibold">
               60
             </p>
-            <p className="text-[#2E3E5C] text-[8px] lg:text-[15px] font-medium">
+            <p className="text-[#2E3E5C] text-[12px] lg:text-[15px] font-medium">
               Pending Projects
             </p>
           </div>
         </div>
       </div>
       <div>
-        <div className="items h-[137px] p-[20px] rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
           <div className="bg-[#5F2EEA] bg-opacity-[0.1] w-[40px] h-[40px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -137,18 +137,18 @@ const Card = () => {
               />
             </svg>
           </div>
-          <div className="div-right flex flex-col ml-[20px]">
+          <div className="div-right flex flex-col ml-[10px]">
             <p className="text-[#171717]  text-[16px] mb-[2px] lg:text-[18px] font-semibold">
               50
             </p>
-            <p className="text-[#2E3E5C] text-[8px] lg:text-[15px] font-medium">
+            <p className="text-[#2E3E5C] text-[12px] lg:text-[15px] font-medium">
               Support Ticket
             </p>
           </div>
         </div>
       </div>
       <div>
-        <div className="items h-[137px] p-[20px] rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
           <div className="bg-[#F03738] bg-opacity-[0.1] w-[40px] h-[40px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -174,18 +174,18 @@ const Card = () => {
               />
             </svg>
           </div>
-          <div className="div-right flex flex-col ml-[20px]">
+          <div className="div-right flex flex-col ml-[10px]">
             <p className="text-[#171717]  text-[16px] mb-[2px] lg:text-[18px] font-semibold">
               50
             </p>
-            <p className="text-[#2E3E5C] text-[8px] lg:text-[15px] font-medium">
+            <p className="text-[#2E3E5C] text-[12px] lg:text-[15px] font-medium">
               Refunded projects
             </p>
           </div>
         </div>
       </div>
       <div>
-        <div className="items h-[137px] p-[20px] rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
           <div className="bg-[#ACBF37] bg-opacity-[0.1] w-[40px] h-[40px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -203,11 +203,11 @@ const Card = () => {
               />
             </svg>
           </div>
-          <div className="div-right flex flex-col ml-[20px]">
+          <div className="div-right flex flex-col ml-[10px]">
             <p className="text-[#171717]  text-[16px] mb-[2px] lg:text-[18px] font-semibold">
               $4999
             </p>
-            <p className="text-[#2E3E5C] text-[8px] lg:text-[15px] font-medium">
+            <p className="text-[#2E3E5C] text-[12px] lg:text-[15px] font-medium">
               Refunded Amounts
             </p>
           </div>

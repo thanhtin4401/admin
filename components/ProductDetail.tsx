@@ -5,7 +5,7 @@ import Section from "./Section";
 
 const ProductDetail = () => {
   return (
-    <div className="p-[30px] w-full bg-[#efeeee] shadow-md">
+    <div className="lg:p-[30px] p-[15px] w-full bg-[#efeeee] shadow-md">
       <Section />
       <h1 className="text-[#212121]  text-[18px] font-bold leading-[21px]">
         Project Detail
