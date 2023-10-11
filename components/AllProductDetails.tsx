@@ -5,8 +5,8 @@ const AllProductDetails = () => {
   return (
     <div className="mt-[30px]">
       <div className="flex lg:flex-row flex-col justify-between space-y-12 lg:space-y-0 lg:space-x-12">
-        <div className="product_left w-full lg:w-2/4">
-          <Image className="rounded-t-lg  w-full" src={product2} alt="" />
+        <div className="product_left rounded-lg overflow-hidden w-full lg:w-2/4">
+          <Image className="  w-full" src={product2} alt="" />
           <div className="card w-full rounded-[10px p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
@@ -39,8 +39,12 @@ const AllProductDetails = () => {
             </div>
           </div>
         </div>
-        <div className="product_left w-full lg:w-2/4">
-          <Image className="rounded-t-lg  w-full" src={product3} alt="" />
+        <div className="product_left rounded-lg overflow-hidden w-full lg:w-2/4">
+          <Image
+            className="object-container max-w-none lg:w-[107%] w-full"
+            src={product3}
+            alt=""
+          />
           <div className="card w-full rounded-[10px p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
