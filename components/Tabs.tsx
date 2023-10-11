@@ -61,7 +61,7 @@ const Tabs = () => {
           </svg>
           <span className="ml-[5px]">User Profile</span>
         </div>
-        <div className="flex mt-[10px] lg:p-[15px] p-[10px] bg-[#6D6CE3] rounded-[15px] w-full   items-center">
+        <div className="flex mt-[10px] lg:p-[15px] p-[10px] items-center bg-[#6D6CE3] rounded-[15px] w-full justify-center">
           <div className="bg-white rounded-[12px] p-[5px]">
             <svg
               className=""
