@@ -1,8 +1,11 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "@/node_modules/next/image";
 import product1 from "../assets/Img/Ellipse 128.png";
 import Tabs from "./Tabs";
 const SideBar = () => {
+  const [expanded, setExpanded] = useState<boolean>(false);
+
   return (
     <div className="w-[320px] font-abc  hidden lg:flex flex-col justify-between ">
       <div className="content  p-[20px]">
@@ -30,7 +33,7 @@ const SideBar = () => {
             fill="#702DFF"
           />
         </svg>
-        <div className="avatar my-[50px] flex flex-col items-center justify-center">
+        <div className="avatar mt-[50px] mb-[10px] flex flex-col items-center justify-center">
           <Image
             src={product1}
             width={150}
@@ -45,76 +48,111 @@ const SideBar = () => {
             nabeel.alawadhi@gmail.com
           </p>
         </div>
-        <div className="type border text-[#0C273C] p-[12px] bg-[#F4F5F7] rounded-[20px] with-[222px]">
-          <div>
-            <div className="title flex justify-between">
+        {expanded ? (
+          <div className="type border my-[30px] transition-all text-[#0C273C] p-[10px] bg-[#F4F5F7] rounded-[20px] with-[222px]">
+            <div>
+              <div className="title flex justify-between">
+                <span className="text-[#0C273C] font-medium font-p">
+                  Customer
+                </span>
+                <svg
+                  className="cursor-pointer"
+                  onClick={() => setExpanded(false)}
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_1_5054)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M9.88129 2.88128C10.223 2.53957 10.777 2.53957 11.1187 2.88128C11.4604 3.22299 11.4604 3.77701 11.1187 4.11872L8.23743 7L11.1187 9.88129C11.4604 10.223 11.4604 10.777 11.1187 11.1187C10.777 11.4604 10.223 11.4604 9.88129 11.1187L7 8.23743L4.11872 11.1187C3.77701 11.4604 3.22299 11.4604 2.88128 11.1187C2.53957 10.777 2.53957 10.223 2.88128 9.88129L5.76257 7L2.88128 4.11872C2.53957 3.77701 2.53957 3.22299 2.88128 2.88128C3.22299 2.53957 3.77701 2.53957 4.11872 2.88128L7 5.76257L9.88129 2.88128Z"
+                      fill="#2E3E5C"
+                      stroke="#2E3E5C"
+                      stroke-width="0.00064"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_5054">
+                      <rect width="14" height="14" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <input
+                defaultValue={"Iftikhar Ahmad"}
+                className="items bg-[white] outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
+              />
+            </div>
+            <div>
               <span className="text-[#0C273C] font-medium font-p">
-                Customer
+                Project Type
               </span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="14"
-                height="14"
-                viewBox="0 0 14 14"
-                fill="none"
-              >
-                <g clip-path="url(#clip0_1_5054)">
+              <input
+                defaultValue={"Development"}
+                className="items bg-[white] outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
+              />
+            </div>
+            <div>
+              <span className="text-[#0C273C] font-abc font-medium font-p">
+                Project Name
+              </span>
+              <input
+                defaultValue={"App Development"}
+                className="items bg-[white] outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
+              />
+            </div>
+            <div className="flex justify-end my-[20px]">
+              <button className="w-[114px] p-[5px] rounded-[8px] text-right flex items-center justify-around height-[29px] bg-[#6D6CE3]">
+                <span className="text-[#fff] font-[500]">Search</span>{" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                >
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M9.88129 2.88128C10.223 2.53957 10.777 2.53957 11.1187 2.88128C11.4604 3.22299 11.4604 3.77701 11.1187 4.11872L8.23743 7L11.1187 9.88129C11.4604 10.223 11.4604 10.777 11.1187 11.1187C10.777 11.4604 10.223 11.4604 9.88129 11.1187L7 8.23743L4.11872 11.1187C3.77701 11.4604 3.22299 11.4604 2.88128 11.1187C2.53957 10.777 2.53957 10.223 2.88128 9.88129L5.76257 7L2.88128 4.11872C2.53957 3.77701 2.53957 3.22299 2.88128 2.88128C3.22299 2.53957 3.77701 2.53957 4.11872 2.88128L7 5.76257L9.88129 2.88128Z"
-                    fill="#2E3E5C"
-                    stroke="#2E3E5C"
-                    stroke-width="0.00064"
+                    d="M5.88889 2.83333C7.57641 2.83333 8.94444 4.20135 8.94444 5.88889M9.34704 9.34466L12 12M10.7778 5.88889C10.7778 8.58896 8.58896 10.7778 5.88889 10.7778C3.18883 10.7778 1 8.58896 1 5.88889C1 3.18883 3.18883 1 5.88889 1C8.58896 1 10.7778 3.18883 10.7778 5.88889Z"
+                    stroke="white"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
                   />
-                </g>
-                <defs>
-                  <clipPath id="clip0_1_5054">
-                    <rect width="14" height="14" fill="white" />
-                  </clipPath>
-                </defs>
-              </svg>
-            </div>
-            <div className="items bg-[white] font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[12px]">
-              Iftikhar Ahmad
+                </svg>
+              </button>
             </div>
           </div>
-          <div>
-            <span className="text-[#0C273C] font-medium font-p">
-              Project Type
-            </span>
-            <div className="items bg-[white]  font-medium  text-[#2E3E5C] m-[10px] rounded-[8px] p-[12px]">
-              Development
+        ) : (
+          <div
+            onClick={() => setExpanded(true)}
+            className="px-[10px] cursor-pointer"
+          >
+            <div
+              className={`flex mt-[10px] transition-all rounded-[15px] px-[10px] items-center lg:w-full w-[130px]`}
+            >
+              <div className="bg-white p-[10px] flex justify-center items-center rounded-[12px]">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="13"
+                  height="13"
+                  viewBox="0 0 13 13"
+                  fill="none"
+                >
+                  <path
+                    d="M5.88889 2.83333C7.57641 2.83333 8.94444 4.20135 8.94444 5.88889M9.34704 9.34466L12 12M10.7778 5.88889C10.7778 8.58896 8.58896 10.7778 5.88889 10.7778C3.18883 10.7778 1 8.58896 1 5.88889C1 3.18883 3.18883 1 5.88889 1C8.58896 1 10.7778 3.18883 10.7778 5.88889Z"
+                    stroke="#3A416F"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+              <span className="ml-[10px] mt-[2px] text-[12px]">Seach</span>
             </div>
           </div>
-          <div>
-            <span className="text-[#0C273C] font-abc font-medium font-p">
-              Project Name
-            </span>
-            <div className="items bg-[white]  font-medium  text-[#2E3E5C] m-[10px] rounded-[8px] p-[12px]">
-              App Development
-            </div>
-          </div>
-          <div className="flex justify-end my-[20px]">
-            <button className="w-[114px] p-[5px] rounded-[8px] text-right flex items-center justify-around height-[29px] bg-[#6D6CE3]">
-              <span className="text-[#fff] font-[500]">Search</span>{" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="13"
-                height="13"
-                viewBox="0 0 13 13"
-                fill="none"
-              >
-                <path
-                  d="M5.88889 2.83333C7.57641 2.83333 8.94444 4.20135 8.94444 5.88889M9.34704 9.34466L12 12M10.7778 5.88889C10.7778 8.58896 8.58896 10.7778 5.88889 10.7778C3.18883 10.7778 1 8.58896 1 5.88889C1 3.18883 3.18883 1 5.88889 1C8.58896 1 10.7778 3.18883 10.7778 5.88889Z"
-                  stroke="white"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
+        )}
+
         <Tabs />
       </div>
       <div className="flex mt-[50px] p-[15px] items-center">

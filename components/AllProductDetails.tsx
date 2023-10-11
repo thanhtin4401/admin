@@ -4,10 +4,20 @@ import product3 from "../assets/Img/Rectangle 4502.png";
 const AllProductDetails = () => {
   return (
     <div className="mt-[30px]">
-      <div className="flex lg:flex-row flex-col justify-between space-y-12 lg:space-y-0 lg:space-x-12">
-        <div className="product_left w-full lg:w-2/4">
-          <Image className="rounded-t-lg  w-full" src={product2} alt="" />
-          <div className="card w-full  p-[20px]  bg-[#FFF]">
+      {" "}
+      <h3 className="text-[18px] text-[#212121] my-[30px] font-medium">
+        Project All Details
+      </h3>
+      <div className="grid grid-cols-2 gap-[50px]">
+        <div className=" bg-white col-span-2 lg:col-span-1 border border-gray-200 rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="xl:h-[261px] 2xl:h-auto">
+            <Image
+              className="rounded-t-lg h-full w-full"
+              src={product2}
+              alt=""
+            />
+          </div>
+          <div className="card w-full rounded-[10px] mt-[20px] p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
               <h3 className="text-[18px] text-[#212121] font-medium">70%</h3>
@@ -39,9 +49,15 @@ const AllProductDetails = () => {
             </div>
           </div>
         </div>
-        <div className="product_left w-full lg:w-2/4">
-          <Image className="rounded-t-lg  w-full" src={product2} alt="" />
-          <div className="card w-full  p-[20px]  bg-[#FFF]">
+        <div className=" bg-white col-span-2 lg:col-span-1  border border-gray-200 rounded-[20px] shadow dark:bg-gray-800 dark:border-gray-700">
+          <div className="xl:h-[261px] 2xl:h-auto">
+            <Image
+              className="rounded-t-lg w-full h-full"
+              src={product3}
+              alt=""
+            />
+          </div>
+          <div className="card w-full rounded-[10px] mt-[20px] p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
               <h3 className="text-[18px] text-[#212121] font-medium">70%</h3>
