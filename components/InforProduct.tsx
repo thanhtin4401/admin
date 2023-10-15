@@ -15,7 +15,7 @@ const InforProduct = () => {
           <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
-              <h3 className="text-[18px] text-[#212121] font-medium">70%</h3>
+              <p className="text-[18px] text-[#212121] font-medium">70%</p>
             </h3>
             <p className="w-[75%] text-[13px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eros,
@@ -49,7 +49,7 @@ const InforProduct = () => {
           <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               Agency website Development
-              <h3 className="text-[18px] text-[#212121] font-medium">100%</h3>
+              <p className="text-[18px] text-[#212121] font-medium">100%</p>
             </h3>
             <p className="w-[75%] text-[13px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eros,
@@ -83,7 +83,7 @@ const InforProduct = () => {
           <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               Dashboard Development
-              <h3 className="text-[18px] text-[#212121] font-medium">10%</h3>
+              <p className="text-[18px] text-[#212121] font-medium">10%</p>
             </h3>
             <p className="w-[75%] text-[13px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eros,
@@ -128,9 +128,9 @@ const InforProduct = () => {
           <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px]  mt-[20px] p-[20px] bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               App Development
-              <h3 className="text-[18px] text-[#212121] font-medium">200$</h3>
+              <p className="text-[18px] text-[#212121] font-medium">200$</p>
             </h3>
-            <p className="text-[15px] flex justify-between  items-center ">
+            <div className="text-[15px] flex justify-between  items-center ">
               <span className="text-[14px] font-normal text-[Gray]">
                 Mile stone-1
               </span>
@@ -154,15 +154,15 @@ const InforProduct = () => {
                   Paid
                 </span>
               </div>
-            </p>
+            </div>
           </div>
 
           <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               App Development
-              <h3 className="text-[18px] text-[#212121] font-medium">400$</h3>
+              <p className="text-[18px] text-[#212121] font-medium">400$</p>
             </h3>
-            <p className="text-[15px] flex justify-between items-center ">
+            <div className="text-[15px] flex justify-between items-center ">
               <span className="text-[14px] font-normal text-[Gray]">
                 Mile stone-2
               </span>
@@ -191,14 +191,14 @@ const InforProduct = () => {
                   Play now
                 </button>{" "}
               </div>
-            </p>{" "}
+            </div>{" "}
           </div>
           <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               Dashboard development
-              <h3 className="text-[18px] text-[#212121] font-medium">400$</h3>
+              <p className="text-[18px] text-[#212121] font-medium">400$</p>
             </h3>
-            <p className="text-[15px] flex justify-between items-center ">
+            <div className="text-[15px] flex justify-between items-center ">
               <span className="text-[14px] font-normal text-[Gray]">
                 Mile stone-3
               </span>
@@ -227,7 +227,7 @@ const InforProduct = () => {
                   Play now
                 </button>{" "}
               </div>
-            </p>{" "}
+            </div>{" "}
           </div>
         </div>
       </div>

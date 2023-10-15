@@ -10,7 +10,7 @@ const AllProductDetails = () => {
           <div className="card w-full rounded-[10px p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
-              <h3 className="text-[18px] text-[#212121] font-medium">70%</h3>
+              <p className="text-[18px] text-[#212121] font-medium">70%</p>
             </h3>
             <p className="w-[75%] text-[13px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eros,
@@ -48,7 +48,7 @@ const AllProductDetails = () => {
           <div className="card w-full rounded-[10px p-[20px]  bg-[#FFF]">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
-              <h3 className="text-[18px] text-[#212121] font-medium">70%</h3>
+              <p className="text-[18px] text-[#212121] font-medium">70%</p>
             </h3>
             <p className="w-[75%] text-[13px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eros,
