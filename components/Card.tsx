@@ -2,7 +2,7 @@ const Card = () => {
   return (
     <div className="font-abc Cards grid grid-cols-2 lg:gap-x-[0px] gap-x-[15px] gap-y-[30px] my-[30px] md:grid-cols-3 lg:grid-cols-4  ">
       <div>
-        <div className="items lg:p-[20px] px-[10px] lg:h-[137px] h-[100px] lg:w-[75%] rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:p-[20px] px-[10px] lg:h-[137px] h-[100px] lg:w-[75%] rounded-[15px] shadow-md items-center flex bg-white">
           <div className="bg-warning-color bg-opacity-[0.1] w-[50px] h-[50px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white">
           <div className="bg-complete-color bg-opacity-[0.1] w-[50px] h-[50px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md  items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md  items-center flex bg-white">
           <div className="bg-orange-500 bg-opacity-[0.1] w-[50px] h-[50px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white">
           <div className="bg-primary-color bg-opacity-[0.1] w-[50px] h-[50px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +146,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white">
           <div className="bg-error-color bg-opacity-[0.1] w-[50px] h-[50px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +183,7 @@ const Card = () => {
         </div>
       </div>
       <div>
-        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white border">
+        <div className="items lg:h-[137px] lg:w-[75%] lg:p-[20px] px-[10px] h-[100px]  rounded-[15px] shadow-md items-center flex bg-white">
           <div className="bg-[#ACBF37] bg-opacity-[0.1] w-[50px] h-[50px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
