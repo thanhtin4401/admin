@@ -7,7 +7,7 @@ const AllProductDetails = () => {
       <div className="flex lg:flex-row flex-col justify-between space-y-12 lg:space-y-0 lg:space-x-12">
         <div className="product_left rounded-lg overflow-hidden w-full lg:w-2/4">
           <Image className="  w-full" src={product2} alt="" />
-          <div className="card w-full rounded-[10px p-[20px]  bg-[#FFF]">
+          <div className="card w-full rounded-[10px p-[20px]  bg-white">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
               <p className="text-[18px] text-[#212121] font-medium">70%</p>
@@ -45,7 +45,7 @@ const AllProductDetails = () => {
             src={product3}
             alt=""
           />
-          <div className="card w-full rounded-[10px p-[20px]  bg-[#FFF]">
+          <div className="card w-full rounded-[10px p-[20px]  bg-white">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
               <p className="text-[18px] text-[#212121] font-medium">70%</p>

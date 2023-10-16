@@ -83,7 +83,7 @@ const SideBar = () => {
               </div>
               <input
                 defaultValue={"Iftikhar Ahmad"}
-                className="items bg-[white] outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
+                className="items bg-white outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
               />
             </div>
             <div>
@@ -92,7 +92,7 @@ const SideBar = () => {
               </span>
               <input
                 defaultValue={"Development"}
-                className="items bg-[white] outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
+                className="items bg-white outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
               />
             </div>
             <div>
@@ -101,7 +101,7 @@ const SideBar = () => {
               </span>
               <input
                 defaultValue={"App Development"}
-                className="items bg-[white] outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
+                className="items bg-white outline-none font-medium text-[#2E3E5C] m-[10px] rounded-[8px] p-[10px]"
               />
             </div>
             <div className="flex justify-end my-[20px]">

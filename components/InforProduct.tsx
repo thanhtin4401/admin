@@ -12,7 +12,7 @@ const InforProduct = () => {
             </button>
           </div>
 
-          <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px]  bg-[#FFF]">
+          <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px]  bg-white">
             <h3 className="text-[18px] flex justify-between  text-[#212121] font-medium">
               App Development
               <p className="text-[18px] text-[#212121] font-medium">70%</p>
@@ -46,7 +46,7 @@ const InforProduct = () => {
               </div>
             </div>
           </div>
-          <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
+          <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-white">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               Agency website Development
               <p className="text-[18px] text-[#212121] font-medium">100%</p>
@@ -80,7 +80,7 @@ const InforProduct = () => {
               </div>
             </div>
           </div>
-          <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
+          <div className="card lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-white">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               Dashboard Development
               <p className="text-[18px] text-[#212121] font-medium">10%</p>
@@ -125,7 +125,7 @@ const InforProduct = () => {
             </button>
           </div>
 
-          <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px]  mt-[20px] p-[20px] bg-[#FFF]">
+          <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px]  mt-[20px] p-[20px] bg-white">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               App Development
               <p className="text-[18px] text-[#212121] font-medium">200$</p>
@@ -157,7 +157,7 @@ const InforProduct = () => {
             </div>
           </div>
 
-          <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
+          <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-white">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               App Development
               <p className="text-[18px] text-[#212121] font-medium">400$</p>
@@ -193,7 +193,7 @@ const InforProduct = () => {
               </div>
             </div>{" "}
           </div>
-          <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-[#FFF]">
+          <div className="card flex flex-col justify-between lg:h-[170px] xl:h-[150px] w-full rounded-[10px] mt-[20px] p-[20px] bg-white">
             <h3 className="text-[18px] flex justify-between text-[#212121] font-medium">
               Dashboard development
               <p className="text-[18px] text-[#212121] font-medium">400$</p>
