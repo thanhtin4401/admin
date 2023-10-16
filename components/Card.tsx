@@ -45,8 +45,6 @@ const Card = () => {
           <div className="bg-[#4BDE97] bg-opacity-[0.1] w-[50px] h-[50px] lg:w-[60px]  lg:h-[60px] flex items-center justify-center rounded-[50%]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              // width="29"
-              // height="24"
               className="lg:w-[28px] w-[25px]"
               viewBox="0 0 29 24"
               fill="none"

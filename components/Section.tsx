@@ -7,7 +7,6 @@ const Section = () => {
   const [expanded, setExpanded] = useState<boolean>(false);
   return (
     <div className="lg:hidden mb-[30px]">
-      {" "}
       <div className="w-full lg:flex flex-col justify-between ">
         <div className="content lg:p-[20px]">
           <svg
