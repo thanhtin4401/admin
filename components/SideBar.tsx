@@ -49,7 +49,7 @@ const SideBar = () => {
           </p>
         </div>
         {expanded ? (
-          <div className="type border my-[30px] transition-all text-[#0C273C] p-[10px] bg-[#F4F5F7] rounded-[20px] with-[222px]">
+          <div className="type my-[30px] transition-all text-[#0C273C] p-[10px] bg-[#F4F5F7] rounded-[20px] with-[222px]">
             <div>
               <div className="title flex justify-between">
                 <span className="text-[#0C273C] font-medium font-p">
